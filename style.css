@@ -1,0 +1,43 @@
+body {
+  font-size: 50pt;
+  width: 98%;
+}
+
+#dice {
+  width: 8%;
+  font-size: 45pt;
+  text-align: center;
+}
+
+#container-dice {
+  width: 50%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:auto;
+}
+
+#label1 {
+  padding: 0 30px 0 0;
+}
+
+#roll{
+    margin: 0 10px 0 10px;
+    width:100px;
+    font-size:28pt;
+}
+
+#dice-instance{
+    border-style: solid;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+#output{
+    margin:30px 45% 0 45%;
+    flex-basis: 30px;
+    width:30px !important;
+    flex-basis: 100%;
+    text-align: center;
+}
