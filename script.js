@@ -23,3 +23,5 @@ function randomEye() {
 function clear(){
     document.getElementById("output").innerHTML = ``;
 }
+
+module.exports = randomEye;

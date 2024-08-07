@@ -1,0 +1,27 @@
+{
+  "name": "rtd",
+  "version": "1.0.0",
+  "main": "first.test.js",
+  "scripts": {
+    "test": "jest --watchAll --silent=false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeCram0ni/Roll-the-dice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeCram0ni/Roll-the-dice/issues"
+  },
+  "homepage": "https://github.com/LeCram0ni/Roll-the-dice#readme",
+  "description": "",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "globals": "^15.9.0"
+  }
+}
